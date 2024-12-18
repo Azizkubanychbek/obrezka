@@ -5,7 +5,7 @@ from PIL import Image
 import os
 
 # Ваш токен Telegram-бота
-API_TOKEN = "7981837289:AAEN89tJnQDgQmVfgZCiVlZ_20afXHsKD-s"
+API_TOKEN = "7904802317:AAGlyX-J3bQnopolyw3OAyRaWxRsS9LflL4"
 
 # Создание бота и диспетчера
 bot = Bot(token=API_TOKEN)
