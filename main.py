@@ -36,7 +36,7 @@ async def handle_photo(message: types.Message):
 
     # Отправляем обрезанное изображение пользователю
     with open(output_path, "rb") as f:
-        await message.reply_photo(f)
+        await bot.send_photo(chat_id=message.chat.id, photo=f)
 
     # Удаляем временные файлы
     os.remove(input_path)
